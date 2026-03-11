@@ -158,7 +158,7 @@ def load(filename):
 def get_summary_file():
     linesinfile = []
     breakerstring = '-----------------------------------------'
-    directory = '/users/emersonuhlig/'
+    directory = './'
     for file in os.listdir(directory):
         if file.endswith('.nso'):
             try: 
